@@ -5,8 +5,8 @@ const skillTags = [
   'React JS',
   'Tailwind CSS',
   'Node.js',
-  'Authentication',
-  'Firebase',
+  'Firebase Authentication',
+  'Firebase backend integration',
   'GIT',
   'Sales',
   'Teamwork',
@@ -16,7 +16,7 @@ const skillTags = [
 const About = () => {
   return (
     <section id="about" className="page-section bg-[#efefef] px-6 py-10 text-[#1f1f1f] sm:px-10 lg:px-8 lg:py-14">
-      <div className="mx-auto 'max-w-300' ">
+      <div className="mx-auto max-w-6xl">
         <div className="flex flex-col items-center justify-center text-center">
           <h1 className="text-[2.2rem] font-black uppercase tracking-tight text-[#1b1d20] sm:text-[3.15rem]">
             ABOUT ME
@@ -65,11 +65,11 @@ const About = () => {
           <div>
             <h2 className="text-[2.15rem] font-bold text-[#0d1117] sm:text-[2.5rem]">My Skills</h2>
 
-            <div className="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-3 'lg:max-w-130'">
+            <div className="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:max-w-[32.5rem]">
               {skillTags.map((skill) => (
                 <div
                   key={skill}
-                  className="flex 'min-h-13' items-center justify-center rounded-md border border-[#d8d8d8] bg-[#dfe0e2] px-3 py-2 text-center text-[0.75rem] font-medium text-[#1e1e1e] shadow-sm sm:text-[0.8rem]"
+                  className="flex min-h-12 items-center justify-center rounded-md border border-[#d8d8d8] bg-[#dfe0e2] px-3 py-2 text-center text-[0.75rem] font-medium text-[#1e1e1e] shadow-sm sm:text-[0.8rem]"
                 >
                   {skill}
                 </div>
